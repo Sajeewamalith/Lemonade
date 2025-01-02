@@ -19,7 +19,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -50,9 +50,9 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun LemonApp(modifier: Modifier = Modifier){
+fun LemonApp() {
 
-    var currentIndex by remember { mutableStateOf(1) }
+    var currentIndex by remember { mutableIntStateOf(1) }
 
     val imageResource = when (currentIndex) {
         1 -> R.drawable.lemon_tree
@@ -89,18 +89,18 @@ fun LemonApp(modifier: Modifier = Modifier){
                     currentIndex = (currentIndex + 1)
                     if(currentIndex > 6){
                         currentIndex = 1
-                    }//% images.size
+                    }
                 }
         ){
             Image(
-                painter = painterResource(imageResource as Int),
+                painter = painterResource(imageResource),
                 contentDescription = currentIndex.toString(),
                 modifier = Modifier.fillMaxSize().padding(16.dp)
             )
         }
         Text(
             modifier = Modifier.padding(top = 8.dp),
-            text = stringResource(textResource as Int),
+            text = stringResource(textResource),
             fontSize = 20.sp
         )
     }
