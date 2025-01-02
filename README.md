@@ -8,7 +8,7 @@
 
 
 <p align="left">  <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/lemonade_demo-ezgif.com-video-to-gif-converter.gif"  width="320" height="620"/>  </p>
-<p align="left">  <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/lemonade_demo-ezgif.com-video-to-gif-converter.gif"  width="320" height="620"/> 
- <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/Screenshot%20(122).png"  width="320" height="620"/> </p>
- <p align="left">  <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/lemonade_demo-ezgif.com-video-to-gif-converter.gif"  width="320" height="620"/> 
- <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/Screenshot%20(122).png"  width="320" height="620"/> </p>
+<p align="left">  <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/Screenshot%20(122).png"  width="320" height="620"/> 
+ <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/Screenshot%20(123).png"  width="320" height="620"/> </p>
+ <p align="left">  <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/Screenshot%20(124).png"  width="320" height="620"/> 
+ <img src="https://github.com/Sajeewamalith/Lemonade/blob/master/Screenshot%20(125).png"  width="320" height="620"/> </p>
