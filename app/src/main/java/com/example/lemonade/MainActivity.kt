@@ -89,6 +89,8 @@ fun LemonApp() {
                     currentIndex = (currentIndex + 1)
                     if(currentIndex > 6){
                         currentIndex = 1
+                    }else if(currentIndex == 2){
+                        currentIndex = (2..4).random()
                     }
                 }
         ){
